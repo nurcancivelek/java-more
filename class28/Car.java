@@ -16,7 +16,7 @@ class Tesla extends Car {
 	Tesla(){	//normally we dont need to super(); it is already there
 		//super(); complier will add by default to make a call to super class
 		//constructor to initialize and object
-		System.out.println("I am a child non argument constructor");
+		//(("I am a child non argument constructor");
 	}
 	Tesla(String make, String model, boolean autopilot){
 		super(make, model);// constructor call (adding parent class variables.)
